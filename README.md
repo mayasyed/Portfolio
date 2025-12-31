@@ -1,4 +1,4 @@
-# Mahanoor Shams Portfolio
+# Mahanoor Shams' Portfolio
 
 Works as a Data Analyst focused on improving operational efficiency, data accuracy, and reporting reliability across complex business environments. Experienced in analysing large datasets within ERP systems, identifying data quality issues, and ensuring data is clean, consistent, and reliable for decision-making.
 
