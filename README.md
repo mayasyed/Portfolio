@@ -11,5 +11,6 @@ Collaborates closely with operations, and cross-functional teams to improve repo
 # Projects
 
 ## Links 
-- Linkedin
-- Tableau
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Noor%20Din-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/mahanoor.shams)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed)
