@@ -23,7 +23,7 @@ recommend actions to reduce early customer drop-off.
 - Data thinking: translating analysis into recommendations
 
 🔗 Project: `./customer-churn`  
-🔗 Dashboard: [(Telco Customer Churn)](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
+🔗 Dashboard: [Telco Customer Churn](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
 
 ---
 
