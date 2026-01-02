@@ -1,64 +1,55 @@
-customer-churn-analysis
-git clone https://github.com/yourusername/customer-churn-analysis.git
-cd customer-churn-analysis
-mkdir -p sql/customer_churn_analysis
-mkdir -p python/customer_churn_analysis
-mkdir -p dashboards/customer_churn_dashboard
-python/customer_churn_analysis/data/churn.csv
+# SQL Analysis — Customer Churn
 
-CREATE TABLE customers (
-    customer_id TEXT PRIMARY KEY,
-    tenure_months INTEGER,
-    plan_type TEXT,
-    monthly_charges REAL,
-    churn TEXT
-);
+This folder contains SQL queries used to analyse customer churn behaviour
+using the cleaned Telco Customer Churn dataset.
 
-SELECT
-    ROUND(
-        SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
-        2
-    ) AS churn_rate_pct
-FROM customers;
-SELECT
-    CASE
-        WHEN tenure_months <= 3 THEN '0-3 months'
-        WHEN tenure_months <= 6 THEN '4-6 months'
-        WHEN tenure_months <= 12 THEN '7-12 months'
-        ELSE '12+ months'
-    END AS tenure_bucket,
-    COUNT(*) AS customers,
-    SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) AS churned,
-    ROUND(
-        SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
-        2
-    ) AS churn_rate_pct
-FROM customers
-GROUP BY tenure_bucket;
-SELECT
-    ROUND(SUM(monthly_charges), 2) AS monthly_revenue_lost
-FROM customers
-WHERE churn = 'Yes';
-SELECT
-    plan_type,
-    AVG(monthly_charges) AS avg_monthly_charge,
-    COUNT(*) AS churned_customers
-FROM customers
-WHERE churn = 'Yes'
-GROUP BY plan_type
-ORDER BY churned_customers DESC;
+The queries focus on identifying **who is churning**, **when churn occurs**,
+and **which customer segments are most at risk**, with an emphasis on
+business-relevant metrics rather than exploratory SQL.
 
-import pandas as pd
+---
 
-def clean_churn_data(df):
-    df = df.copy()
+## Dataset
+The queries are written against a cleaned customer-level table (`customers`)
+derived from the Telco Customer Churn dataset.
 
-    df.columns = df.columns.str.lower().str.replace(" ", "_")
+Key fields used include:
+- `churn` – churn status (`Yes` / `No`)
+- `tenure_months` – customer tenure in months
+- `tenure_bucket` – grouped tenure bands
+- `plan_type` – customer contract or plan type
+- `monthly_charges` – monthly subscription charges
 
-    df['tenure_months'] = df['tenure_months'].fillna(0)
-    df['monthly_charges'] = df['monthly_charges'].astype(float)
+---
 
-    df['churn'] = df['churn'].str.strip()
+## Files
 
-    return df
+### `queries.sql`
+Contains a set of focused analytical queries, including:
+- Overall churn rate
+- Churn rate by tenure bucket
+- Monthly recurring revenue associated with churned customers
+- Churn rate comparison across plan types
 
+Each query is separated by comment blocks describing its purpose.
+
+---
+
+### `insights.md`
+Summarises the key findings derived from the SQL queries and translates them
+into high-level business implications and recommendations.
+
+Insights are explicitly tied to the corresponding SQL queries to ensure
+traceability between analysis and conclusions.
+
+---
+
+## Purpose
+The goal of this SQL analysis is not just to calculate metrics, but to
+demonstrate how SQL can be used to:
+- Answer concrete business questions
+- Segment customers meaningfully
+- Support data-driven decision making
+
+The outputs from this folder inform both the Python analysis and the
+high-level conclusions presented in the project README.

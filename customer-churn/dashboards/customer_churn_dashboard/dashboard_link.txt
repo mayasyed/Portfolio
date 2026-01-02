@@ -1,3 +1,0 @@
-Dashboard Link: [Insert link to Tableau/Power BI dashboard here]
-
-Example: https://public.tableau.com/views/CustomerChurnDashboard/Overview
