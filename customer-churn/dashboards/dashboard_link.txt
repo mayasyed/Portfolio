@@ -1,1 +1,1 @@
-Dashboard Link: https://public.tableau.com/views/TecloCustomerChurn/Sheet1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Dashboard Link: https://public.tableau.com/app/profile/mahanoor.shams/viz/TecloCustomerChurn/CustomerChurnOverview
