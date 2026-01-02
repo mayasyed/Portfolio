@@ -1,4 +1,4 @@
-# Customer Churn Analysis — Telco
+# Customer Churn Analysis - Telco
 
 ## TLDR
 Analysed customer churn behaviour for a subscription-based telecom business
@@ -30,14 +30,12 @@ most strongly associated with churn?
 
 ## Project Structure
 customer-churn/
-├── datasets/ # Raw and cleaned datasets
-├── sql/ # SQL queries and documented insights
-├── python/ # Data cleaning script and EDA notebook
-├── dashboards/ # Tableau dashboard link and documentation
+├── datasets/      # Raw and cleaned datasets
+├── sql/           # SQL queries and documented insights
+├── python/        # Data cleaning script and EDA notebook
+├── dashboards/    # Tableau dashboard link and documentation
+├── images/        # Dashboard screenshot
 └── README.md
-
-yaml
-Copy code
 
 ---
 
@@ -80,7 +78,8 @@ The dashboard presents:
 ---
 
 ## Tools Used
-- SQL — churn metrics, segmentation, and aggregation
-- Python — data cleaning and exploratory analysis
-- Tableau — dashboarding and insight communication
-- Git & GitHub — version control and project documentation
+- SQL - churn metrics, segmentation, and aggregation
+- Python - data cleaning and exploratory analysis
+- Tableau - dashboarding and insight communication
+- Git & GitHub - version control and project documentation
+
