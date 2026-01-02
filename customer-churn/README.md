@@ -29,6 +29,7 @@ most strongly associated with churn?
 ---
 
 ## Project Structure
+```
 customer-churn/
 ├── datasets/      # Raw and cleaned datasets
 ├── sql/           # SQL queries and documented insights
@@ -36,6 +37,7 @@ customer-churn/
 ├── dashboards/    # Tableau dashboard link and documentation
 ├── images/        # Dashboard screenshot
 └── README.md
+```
 
 ---
 
@@ -82,4 +84,5 @@ The dashboard presents:
 - Python - data cleaning and exploratory analysis
 - Tableau - dashboarding and insight communication
 - Git & GitHub - version control and project documentation
+
 
