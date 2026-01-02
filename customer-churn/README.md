@@ -85,4 +85,8 @@ The dashboard presents:
 - Tableau - dashboarding and insight communication
 - Git & GitHub - version control and project documentation
 
+## References 
+- Dataset - https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+
 
