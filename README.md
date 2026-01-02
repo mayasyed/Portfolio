@@ -13,7 +13,7 @@ using SQL, Python, and BI tools.
 ## 📌 Featured Projects
 
 ### 1️⃣ Customer Churn Analysis
-**TL;DR:** Analysed subscription churn to identify high-risk segments and
+**TLDR:** Analysed subscription churn to identify high-risk segments and
 recommend actions to reduce early customer drop-off.
 
 **What this demonstrates**
