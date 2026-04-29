@@ -1,35 +1,51 @@
-# Mahanoor Shams' Data Analyst Portfolio
+# Mahanoor Shams | Data Analyst Portfolio
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-M%20Shams-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahanoor%20Shams-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/mahanoor.shams)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed)
 
-
-Data analyst focused on turning messy operational data into reliable insights
-using SQL, Python, and BI tools.
+Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashboards, and operational reporting for cross-functional teams. This portfolio showcases personal projects across customer analytics, business intelligence, and data storytelling.
 
 ---
 
-## 📌 Featured Projects
+## 📌 Projects
 
-### 1️⃣ Customer Churn Analysis
-**TLDR:** Analysed subscription churn to identify high-risk segments and
-recommend actions to reduce early customer drop-off.
+### 1. Customer Churn Analysis
 
-**What this demonstrates**
-- SQL: churn metrics, segmentation, aggregations
-- Python: data cleaning, EDA, visual analysis
-- BI: interactive churn dashboard
-- Data thinking: translating analysis into recommendations
+**Goal:** Identify high-risk customer segments and recommend actions to reduce early drop-off for a telecoms subscription business.
 
-🔗 Project: `./customer-churn`  
-🔗 Dashboard: [Telco Customer Churn](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
+**What this covers:**
+- SQL: churn metrics, cohort segmentation, aggregations
+- Python: data cleaning, exploratory analysis, visual storytelling
+- Tableau: interactive churn dashboard with segment filters
+
+**Key finding:** Month-to-month contract customers with fibre internet and no add-on services had the highest churn rate, accounting for a disproportionate share of revenue lost in the first 90 days.
+
+🔗 [View project folder](./customer-churn)
+🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
 
 ---
 
-## 📂 How to read this repo
-Each project is structured the same way:
-- `sql/` → analytical queries
-- `python/` → notebooks and scripts
-- `dashboards/` → public BI dashboards
-- `insights.md` → business conclusions
+## 📂 Project Structure
+
+Each project follows a consistent layout:
+
+```
+project-name/
+├── sql/           # Analytical queries
+├── python/        # Notebooks and scripts
+├── dashboards/    # Links to published BI dashboards
+└── insights.md    # Business conclusions and recommendations
+```
+
+---
+
+## 🛠 Tools Used Across This Portfolio
+
+SQL, Python (pandas, matplotlib, seaborn), Tableau, Power BI, Excel
+
+---
+
+## 📬 Get in Touch
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
