@@ -37,7 +37,7 @@ Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashb
 
 **Key finding:** Users with consistently high active minutes during the day showed measurably better sleep duration, while irregular intensity patterns correlated with shorter and more fragmented rest.
 
-🔗 [View project repo](https://github.com/mayasyed/Gym-Tracker)
+🔗 [View project folder](https://github.com/mayasyed/Portfolio/tree/main/fitness-tracker)
 
 ---
 
