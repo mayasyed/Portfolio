@@ -26,6 +26,21 @@ Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashb
 
 ---
 
+### 2. Fitness Tracker Dashboard
+
+**Goal:** Explore the relationship between daily physical activity and sleep quality using real Fitbit data, and surface actionable patterns for rest and recovery.
+
+**What this covers:**
+- Power BI: multi-page dashboard with KPI cards, trend lines, and activity/sleep correlation visuals
+- DAX: custom measures for average sleep duration, active minutes, step targets, and intensity segmentation
+- Data preparation: merging and cleaning multiple CSV sources across activity, intensity, and sleep tables
+
+**Key finding:** Users with consistently high active minutes during the day showed measurably better sleep duration, while irregular intensity patterns correlated with shorter and more fragmented rest.
+
+🔗 [View project repo](https://github.com/mayasyed/Gym-Tracker)
+
+---
+
 ## 📂 Project Structure
 
 Each project follows a consistent layout:
@@ -42,7 +57,7 @@ project-name/
 
 ## 🛠 Tools Used Across This Portfolio
 
-SQL, Python (pandas, matplotlib, seaborn), Tableau, Power BI, Excel
+SQL, Python (pandas, matplotlib, seaborn), Power BI, DAX, Tableau, Excel
 
 ---
 
