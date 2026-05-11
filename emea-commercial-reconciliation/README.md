@@ -7,6 +7,7 @@ A commercial data reconciliation project built in Microsoft Excel, simulating th
 🔗 [View in Google Sheets](https://docs.google.com/spreadsheets/d/1Ie-t5AwX5xTFWl-XOcmikoPioKNgRpgBFY_QCLhQAY0)
 
 ---
+<img width="1107" height="844" alt="image" src="https://github.com/user-attachments/assets/bf03d5e7-8ed4-4945-9524-1dbafe38f5f7" />
 
 ## Background
 
