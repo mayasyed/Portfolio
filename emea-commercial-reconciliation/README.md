@@ -4,6 +4,8 @@ A commercial data reconciliation project built in Microsoft Excel, simulating th
 
 **Headline result: 48 matches, 32 flagged for review, 17 escalated across 100 records covering 7 EMEA markets and 10 partner agencies.**
 
+🔗 [View in Google Sheets](https://docs.google.com/spreadsheets/d/1Ie-t5AwX5xTFWl-XOcmikoPioKNgRpgBFY_QCLhQAY0)
+
 ---
 
 ## Background
@@ -84,3 +86,4 @@ Rows with missing invoice amounts are included with a status of Missing Invoice 
 | File | Description |
 |---|---|
 | Task_1_EMEA_Commercial_Reconciliation.xlsx | Full workbook with all 6 sheets |
+| [Google Sheets version](https://docs.google.com/spreadsheets/d/1Ie-t5AwX5xTFWl-XOcmikoPioKNgRpgBFY_QCLhQAY0) | Key sheets replicated in Google Sheets |
