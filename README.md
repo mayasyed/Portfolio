@@ -49,7 +49,7 @@ Data analyst with 3 years of experience building SQL pipelines, Power BI dashboa
 
 **Key finding:** 48 records matched cleanly, 32 required review, and 17 were escalated. France showed the largest negative variance at -16%, partly driven by 3 records with missing invoice amounts. Hearts & Science had the highest agency-level variance at +11.28%.
 
-🔗 [View project folder](https://github.com/mayasyed/Portfolio/tree/main/emea-commercial-reconciliation)
+🔗 [View project folder](https://github.com/mayasyed/Portfolio/tree/main/emea-commercial-reconciliation) 🔗 [View in Google Sheets](https://docs.google.com/spreadsheets/d/1Ie-t5AwX5xTFWl-XOcmikoPioKNgRpgBFY_QCLhQAY0/edit?usp=sharing)
 
 ---
 
