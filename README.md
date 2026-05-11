@@ -17,7 +17,7 @@ Data analyst with 3 years of experience building SQL pipelines, Power BI dashboa
 
 **Key finding:** Month-to-month contract customers with fibre internet and no add-on services had the highest churn rate, accounting for a disproportionate share of revenue lost in the first 90 days.
 
-🔗 [View project folder](https://github.com/mayasyed/Portfolio/blob/main/customer-churn) 🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
+🔗 [View project](https://github.com/mayasyed/Portfolio/blob/main/customer-churn) 🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
 
 ---
 
@@ -49,21 +49,13 @@ Data analyst with 3 years of experience building SQL pipelines, Power BI dashboa
 
 **Key finding:** 48 records matched cleanly, 32 required review, and 17 were escalated. France showed the largest negative variance at -16%, partly driven by 3 records with missing invoice amounts. Hearts & Science had the highest agency-level variance at +11.28%.
 
-🔗 [View project folder](https://github.com/mayasyed/Portfolio/tree/main/emea-commercial-reconciliation) 🔗 [View in Google Sheets](https://docs.google.com/spreadsheets/d/1Ie-t5AwX5xTFWl-XOcmikoPioKNgRpgBFY_QCLhQAY0/edit?usp=sharing)
+🔗 [View project](https://github.com/mayasyed/Portfolio/tree/main/emea-commercial-reconciliation) 🔗 [View in Google Sheets](https://docs.google.com/spreadsheets/d/1Ie-t5AwX5xTFWl-XOcmikoPioKNgRpgBFY_QCLhQAY0/edit?usp=sharing)
 
 ---
 
 ## 📂 Project Structure
 
-Each project follows a consistent layout:
-
-```
-project-name/
-├── sql/           # Analytical queries
-├── python/        # Notebooks and scripts
-├── dashboards/    # Links to published BI dashboards
-└── insights.md    # Business conclusions and recommendations
-```
+Each project has its own folder containing the relevant files and a README explaining the approach, findings, and tools used.
 
 ---
 
@@ -74,3 +66,5 @@ SQL, Python (pandas, matplotlib, seaborn), Power BI, DAX, Tableau, Excel
 ---
 
 ## 📬 Get in Touch
+- 💼 [LinkedIn](https://linkedin.com/in/mahanoor-shams)
+- 📧 mahanoorshams@outlook.com
