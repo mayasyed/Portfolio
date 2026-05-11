@@ -56,3 +56,21 @@ Data analyst with 3 years of experience building SQL pipelines, Power BI dashboa
 ## 📂 Project Structure
 
 Each project follows a consistent layout:
+
+```
+project-name/
+├── sql/           # Analytical queries
+├── python/        # Notebooks and scripts
+├── dashboards/    # Links to published BI dashboards
+└── insights.md    # Business conclusions and recommendations
+```
+
+---
+
+## 🛠 Tools Used Across This Portfolio
+
+SQL, Python (pandas, matplotlib, seaborn), Power BI, DAX, Tableau, Excel
+
+---
+
+## 📬 Get in Touch
