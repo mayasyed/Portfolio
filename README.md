@@ -1,10 +1,6 @@
 # Mahanoor Shams | Data Analyst Portfolio
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahanoor%20Shams-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
-[![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/mahanoor.shams)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed)
-
-Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashboards, and operational reporting for cross-functional teams. This portfolio showcases personal projects across customer analytics, business intelligence, and data storytelling.
+Data analyst with 3 years of experience building SQL pipelines, Power BI dashboards, and operational reporting for cross-functional teams. This portfolio showcases personal projects across customer analytics, business intelligence, and data storytelling.
 
 ---
 
@@ -21,8 +17,7 @@ Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashb
 
 **Key finding:** Month-to-month contract customers with fibre internet and no add-on services had the highest churn rate, accounting for a disproportionate share of revenue lost in the first 90 days.
 
-🔗 [View project folder](./customer-churn)
-🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
+🔗 [View project folder](https://github.com/mayasyed/Portfolio/blob/main/customer-churn) 🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
 
 ---
 
@@ -41,26 +36,23 @@ Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashb
 
 ---
 
+### 3. EMEA Commercial Revenue Reconciliation
+
+**Goal:** Validate H1 2024 commercial revenue records across 7 EMEA markets and 10 media agency partners, identifying discrepancies between reported revenue and invoice amounts before payment authorisation.
+
+**What this covers:**
+- Excel: data cleaning and standardisation across 100 messy records with inconsistent market names, date formats, currencies, and status values
+- FX conversion: EUR to GBP using real month-end exchange rates via VLOOKUP and a reference rate table
+- Variance analysis: Match, Review, and Escalate classifications with threshold-based logic
+- Dashboard: SUMIF-based summary broken down by market, agency, and month
+- Escalation log: 17 flagged records with structured columns for action owner and resolution tracking
+
+**Key finding:** 48 records matched cleanly, 32 required review, and 17 were escalated. France showed the largest negative variance at -16%, partly driven by 3 records with missing invoice amounts. Hearts & Science had the highest agency-level variance at +11.28%.
+
+🔗 [View project folder](https://github.com/mayasyed/Portfolio/tree/main/emea-commercial-reconciliation)
+
+---
+
 ## 📂 Project Structure
 
 Each project follows a consistent layout:
-
-```
-project-name/
-├── sql/           # Analytical queries
-├── python/        # Notebooks and scripts
-├── dashboards/    # Links to published BI dashboards
-└── insights.md    # Business conclusions and recommendations
-```
-
----
-
-## 🛠 Tools Used Across This Portfolio
-
-SQL, Python (pandas, matplotlib, seaborn), Power BI, DAX, Tableau, Excel
-
----
-
-## 📬 Get in Touch
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
